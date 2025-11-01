@@ -155,7 +155,7 @@ echo "192.168.1.100 gitlab.devopsinaction.lab" | sudo tee -a /etc/hosts
 ```
 
 *(See Pi-hole / DNS setup video for details)*
-[DevOps in Action - How to Setup Pi-hole DNS within 60 seconds | Pi-hole Home Lab DNS Server setup 😊](https://youtu.be/FYuOSGJk7j0)
+- [DevOps in Action - How to Setup Pi-hole DNS within 60 seconds | Pi-hole Home Lab DNS Server setup 😊](https://youtu.be/FYuOSGJk7j0)
 
 ### Access directly (no reverse proxy)
 
