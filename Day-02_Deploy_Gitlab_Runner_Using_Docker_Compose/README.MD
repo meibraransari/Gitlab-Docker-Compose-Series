@@ -2,6 +2,12 @@
 
 This guide shows how to run a GitLab Runner inside a Docker container using Docker Compose and register it with your GitLab instance. By using Docker Compose, you can easily manage the GitLab Runner as a service, persist its configuration, and isolate it from your host system.
 
+
+## 🎬 Video Demonstration
+
+[![Watch on Youtube](https://i.ytimg.com/vi/jTJEtvQH4Qc/maxresdefault.jpg)](https://youtu.be/jTJEtvQH4Qc)
+
+
 ## Register runner
 
 - admin > CICD > runners
