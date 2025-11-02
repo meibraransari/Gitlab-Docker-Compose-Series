@@ -6,6 +6,11 @@ This repository provides a **step-by-step guide** to setting up a **self-hosted 
 It also covers setting up **GitLab Runner** with different executors — Shell, Docker, Docker-in-Docker (DinD).
 
 
+## 🎬 Video Demonstration
+
+[![Watch on Youtube](https://i.ytimg.com/vi/UJwKLWJdrgo/maxresdefault.jpg)](https://youtu.be/UJwKLWJdrgo)
+
+
 ## ⚙️ Prerequisites
 
 - 🐧 Linux Server 
