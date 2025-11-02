@@ -8,6 +8,36 @@ This guide shows how to run a GitLab Runner inside a Docker container using Dock
 [![Watch on Youtube](https://i.ytimg.com/vi/jTJEtvQH4Qc/maxresdefault.jpg)](https://youtu.be/jTJEtvQH4Qc)
 
 
+## Run rinner on any server
+
+```bash
+#nano .env
+DOCKER_VOLUME_STORAGE=/HDD2TB/iansari/gitlab
+GITLAB_RUNNER_VERSION=ubuntu-bbdc3f57
+```
+
+
+```yaml
+# nano compose.yaml
+services:
+  # Gutlab Runner Must not be on the Gitlab server(Best Practices: Keep it in same LAN and on another server to build Jobs...)
+  runner:
+    image: gitlab/gitlab-runner:${GITLAB_RUNNER_VERSION}
+    restart: always
+    container_name: gitlab_runner
+    network_mode: 'host'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${DOCKER_VOLUME_STORAGE:-/mnt/docker-volumes}/gitlab/runner:/etc/gitlab-runner
+    labels:
+      version: "latest"
+      description: "Deployed on 01-11-2025"
+```
+
+```bash
+docker compose up -d
+```
+
 ## Register runner
 
 - admin > CICD > runners
