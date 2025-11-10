@@ -50,7 +50,6 @@ docker compose down
 ### 2️⃣ Check Existing Configuration
 
 ```bash
-cd /HDD2TB/iansari/gitlab
 grep -vE "^#|^$" ./gitlab/config/gitlab.rb
 ```
 
