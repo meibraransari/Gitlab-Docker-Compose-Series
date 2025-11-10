@@ -86,7 +86,7 @@ Replace content or update these lines:
 ```ruby
 nginx['enable'] = true
 nginx['client_max_body_size'] = '250m'
-nginx['listen_addresses'] = ['127.0.0.1']
+nginx['listen_addresses'] = ['0.0.0.0']
 nginx['listen_port'] = 80
 nginx['listen_https'] = false
 nginx['proxy_set_headers'] = {
