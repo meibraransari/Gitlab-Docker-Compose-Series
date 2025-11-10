@@ -93,7 +93,6 @@ nginx['proxy_set_headers'] = {
 ```
 
 
-
 ### 5️⃣ Runner SSL Setup
 
 #### 🔧 Update `compose.yaml`
@@ -111,6 +110,25 @@ environment:
   - external_url=https://${GITLAB_HOST_URL}
 ```
 
+Start container
+```bash
+docker compose up -d
+```
+
+✨ **Now your GitLab instance runs securely behind an SSL-enabled Nginx reverse proxy!**
+
+
+## 📦 NPM Reverse Proxy Setup (with SSL + Force HTTPS)
+
+Goal: Configure "gitlab.devopsinaction.lab" SSL and force use HTTPS.
+- 👉 https://npm.devopsinaction.lab/nginx/proxy
+
+
+## 🔐 GitLab Access with SSL over HTTPS
+
+- **GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
+- **Username:** `root`
+- **Password:** `usvYV8PGTGF5fiwe6`
 
 
 #### 🔧 Update Runner Configuration
@@ -137,7 +155,6 @@ docker restart gitlab_runner
 ```
 
 
-
 ## ✅ Summary
 
 | Step | Action          | Description                                   |
@@ -148,22 +165,6 @@ docker restart gitlab_runner
 | 4    | Edit config     | Set Nginx to HTTP (reverse proxy handles SSL) |
 | 5    | Update runner   | Point to HTTPS GitLab URL                     |
 | 6    | Restart runner  | Apply new configuration                       |
-
-
-
-✨ **Now your GitLab instance runs securely behind an SSL-enabled Nginx reverse proxy!**
-
-## 📦 NPM Reverse Proxy Setup (with SSL + Force HTTPS)
-
-Goal: Configure "gitlab.devopsinaction.lab" SSL and force use HTTPS.
-- 👉 https://npm.devopsinaction.lab/nginx/proxy
-
-
-## 🔐 GitLab Access with SSL over HTTPS
-
-- **GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
-- **Username:** `root`
-- **Password:** `usvYV8PGTGF5fiwe6`
 
 
 
