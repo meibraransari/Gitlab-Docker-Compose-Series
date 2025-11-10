@@ -2,9 +2,9 @@
 
 ## 🔐 GitLab Access without SSL over HTTP
 
-**GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
-**Username:** `root`
-**Password:** `usvYV8PGTGF5fiwe6`
+- **GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
+- **Username:** `root`
+- **Password:** `usvYV8PGTGF5fiwe6`
 
 
 
@@ -161,10 +161,9 @@ Goal: Configure "gitlab.devopsinaction.lab" SSL and force use HTTPS.
 
 ## 🔐 GitLab Access with SSL over HTTPS
 
-**GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
-**Username:** `root`
-**Password:** `usvYV8PGTGF5fiwe6`
-
+- **GitLab URL:** [http://gitlab.devopsinaction.lab/users/sign_in](http://gitlab.devopsinaction.lab/users/sign_in)
+- **Username:** `root`
+- **Password:** `usvYV8PGTGF5fiwe6`
 
 
 
