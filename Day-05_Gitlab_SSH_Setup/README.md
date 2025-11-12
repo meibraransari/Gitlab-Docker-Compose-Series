@@ -9,12 +9,12 @@ Whether you're hosting GitLab in Docker or managing it on a self-hosted server, 
 
 
 🧠 What You’ll Learn
-✅ How SSH authentication works with GitLab
-✅ How to generate SSH keys (RSA 4096) on your local machine
-✅ How to add and configure SSH keys in GitLab
-✅ How to connect Git to GitLab using SSH
-✅ How to debug “Permission denied (publickey)” errors
-✅ Bonus: Setting up SSH for Docker-based GitLab environments
+- ✅ How SSH authentication works with GitLab
+- ✅ How to generate SSH keys (RSA 4096) on your local machine
+- ✅ How to add and configure SSH keys in GitLab
+- ✅ How to connect Git to GitLab using SSH
+- ✅ How to debug “Permission denied (publickey)” errors
+- ✅ Bonus: Setting up SSH for Docker-based GitLab environments
 
 
 ## 🧠 Understanding Architecture
