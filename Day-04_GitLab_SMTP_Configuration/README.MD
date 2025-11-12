@@ -6,7 +6,7 @@ Remember to replace placeholder values (`<USERNAME>`, `<PASSWORD>`, `<DOMAIN>`, 
 
 ## 🎬 Video Demonstration
 
-[![Watch on Youtube](https://i.ytimg.com/vi/fF_mgWTpZsk/maxresdefault.jpg)](https://youtu.be/fF_mgWTpZsk)
+[![Watch on Youtube](https://i.ytimg.com/vi/v9IyIFR0JoM/maxresdefault.jpg)](https://youtu.be/v9IyIFR0JoM)
 
 
 ## Configuration
