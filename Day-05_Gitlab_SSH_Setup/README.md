@@ -54,8 +54,8 @@ If something else is bound to port 22 (e.g., system SSH), free it or use a diffe
           │
           ▼
 ┌──────────────────────────┐
-│     Proxmox Host         │
-│  192.168.1.100:22        │
+│      GitLab Server       │
+│    192.168.1.100:22      │
 └──────────────────────────┘
 ```
 
