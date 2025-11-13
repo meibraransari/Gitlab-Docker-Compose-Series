@@ -118,6 +118,6 @@ but SSH gives you **stronger, scalable, and more maintainable security** — esp
 ---
 
 So in short:
-👉 **HTTPS = convenient but reusable secret.**
-👉 **SSH = cryptographically proven identity — nothing secret ever leaves your machine.**
+- 👉 **HTTPS = convenient but reusable secret.**
+- 👉 **SSH = cryptographically proven identity — nothing secret ever leaves your machine.**
 
