@@ -31,6 +31,24 @@ Learn how to:
 - Register the runner with your GitLab instance.
 - Persist runner configuration and isolate it from your host system.
 
+### [Day 3: GitLab Docker Compose | Gitlab SSL setup with Nginx Reverse Proxy](./Day-03_Deploy_Gitlab_SSL_Using_Nginx_Reverse_Proxy/ )
+Learn how to:
+- Set up SSL for GitLab using Nginx reverse proxy.
+- Configure GitLab to use the SSL certificate.
+- Secure your GitLab instance with HTTPS.
+
+### [Day 4: GitLab Docker Compose | GitLab SMTP configuration](./Day-04_Deploy_Gitlab_SMTP_Configuration/ )
+Learn how to:
+- Configure GitLab to use SMTP for email notifications.
+- Set up SMTP credentials for GitLab.
+- Configure GitLab to send email notifications.
+
+### [Day 5: GitLab Docker Compose | GitLab SSH Setup](./Day-05_Deploy_Gitlab_SSH_Setup/ )
+Learn how to:
+- Set up SSH for GitLab.
+- Configure GitLab to use SSH for authentication.
+- Set up SSH keys for GitLab.
+
 ## Repository Structure
 
 ```
@@ -38,6 +56,9 @@ Learn how to:
 .
 ├── Day-01   	# Day 1: GitLab installation
 ├── Day-02     	# Day 2: GitLab Runner registration
+├── Day-03     	# Day 3: Gitlab SSL setup with Nginx Reverse Proxy
+├── Day-04     	# Day 4: Gitlab SMTP configuration
+├── Day-05     	# Day 5: Gitlab SSH Setup
 └── README.md    # Main overview (this file)
 
 ```
